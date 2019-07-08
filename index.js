@@ -1,5 +1,4 @@
-console.log('hello ben');
-
+//practicing Euclidean Algorithm to find the GCD in an array of numbers
 
 const arr1 = [28, 16, 44, 124, 100];
 const arr2 = [4, 3, 19, 33, 26];
@@ -17,7 +16,6 @@ function findGcdArray(num, array) {
     let a;
     let b;
     if(num === 0 || !num) return null;
-    console.log(array);
     a = array[0];
     for(let i = 1; i < num; i++) {
         b = array[i];
